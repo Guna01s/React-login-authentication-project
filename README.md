@@ -42,7 +42,7 @@ The React Login Authentication App is a web application that provides user authe
 - Click the "Sign Up" button.
   
 - Enter a unique username and password.
-  
+
 <img width="960" alt="Screenshot 2023-09-28 134051" src="https://github.com/Guna01s/React-login-authentication-project/assets/138674801/6cd7b4ba-c8c2-44fd-824f-0abf21fa69d0">
 
 
