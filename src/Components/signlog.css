@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  /* margin-left: 60%; */
+  margin-top: 15vh;
+  width: 500px;
+  background-color: #fff;
+  padding-bottom: 30px;
+  border-radius: 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.text {
+  color: #8e0202;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: #8e0202;
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 400px;
+  height: 50px;
+  background-color: #eaeaea;
+  border-radius: 9px;
+}
+.input .icon {
+  margin: 0px 30px;
+}
+.input input {
+  height: 50px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #434141;
+  font-size: 19px;
+  overflow: hidden;
+}
+
+.forgot-password {
+  padding-left: 55px;
+  margin-top: 27px;
+  color: #434141;
+  font-size: 18px;
+}
+
+.forgot-password span {
+  color: #8e0202;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  /* margin: 30px auto; */
+  margin-top: 40px;
+  margin-left: 90px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 39px;
+  color: #fff;
+  background: #8e0202;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.b {
+  background: #eaeaea;
+  color: #676767;
+  outline: none;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This makes the container take up the full height of the viewport */
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #59020295;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the link button */
+.btn:hover {
+  background-color: #590202bf;
+}
+
+.hover-animation:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+  box-shadow: 0 0 30px #1d023e; /* Stronger white shadow on hover */
+}
